@@ -1,6 +1,6 @@
 package org.blackjack.Models;
 
-import org.example.Interface.Strategy;
+import org.blackjack.Interface.Strategy;
 
 import java.util.ArrayList;
 import java.util.List;

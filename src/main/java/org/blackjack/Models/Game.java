@@ -1,6 +1,6 @@
 package org.blackjack.Models;
 
-import org.example.Interface.DefaultStrategy;
+import org.blackjack.Interface.DefaultStrategy;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -74,7 +74,7 @@ public class Game {
         }
 
         if (players.size() == 1) {
-            gameState.endGame(true, players.getFirst());
+            gameState.endGame(true, players.get(0));
         }
     }
 }

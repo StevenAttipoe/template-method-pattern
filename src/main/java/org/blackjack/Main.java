@@ -1,6 +1,6 @@
 package org.blackjack;
 
-import org.example.Models.Game;
+import org.blackjack.Models.Game;
 
 public class Main {
     public static void main(String[] args) {
